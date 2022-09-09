@@ -10,8 +10,8 @@ int main(void)
 {
 char chartype;
 int inttype;
-int longinttype;
-long longlonginttype;
+longint longinttype;
+longlongint longlonginttype;
 float floattype;
 
 printf("Size of a char: %zu bytes \n", sizeof(chartype));
