@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+/**
+ * main- lowercase alphabet, then uppercase
+ * Description: Prints the whole alphabets, lower before upper
+ * Return: always 0
+ */
+
+int main(void)
+{
+for (int ch = "a", ch <= "z", ch++)
+putchar(ch);
+for (int ch = "A", ch <="Z", ch++)
+putchar(ch);
+putchar("\n");
+return (0);
+}
