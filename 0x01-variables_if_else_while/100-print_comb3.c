@@ -8,13 +8,10 @@
 int main(void)
 {
 int a, i;
-for (a = 0; a < 10; a++)
+for (a = 0; a < 9; a++)
 {
-for (i = 0; i < 10; i++)
-{
-if (a < i)
 putchar(a);
-putchar(i);
+putchar(a + '1');
 }
 putchar(',');
 putchar(' ');
