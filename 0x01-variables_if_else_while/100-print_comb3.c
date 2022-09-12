@@ -1,22 +1,23 @@
 #include <stdio.h>
 
 /**
- * main- all possible combinations of single digit numbers
+ * main-All possible different combinations of two digits
  * Return: always 0
  */
 
 int main(void)
 {
-int a;
+int a, i;
 for (a = 0; a < 10; a++)
 {
-putchar(a + '0');
-if (a < 9)
+for (i = 0; i < 10; i++)
 {
+if (a < i)
+putchar(a);
+putchar(i);
+}
 putchar(',');
 putchar(' ');
 }
-}
-putchar('\n');
 return (0);
 }
