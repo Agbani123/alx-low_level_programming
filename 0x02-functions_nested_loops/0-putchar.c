@@ -7,6 +7,14 @@
 
 int main(void)
 {
-printf("_putchar");
+putchar("_");
+putchar("p");
+putchar("u");
+putchar("t");
+put har("c");
+putchar("h");
+putchar("a");
+putchar("r");
+putchar("\n");
 return (0);
 }
