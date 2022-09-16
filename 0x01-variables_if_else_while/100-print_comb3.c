@@ -15,6 +15,5 @@ putchar(a + '1');
 }
 putchar(',');
 putchar(' ');
-}
 return (0);
 }
