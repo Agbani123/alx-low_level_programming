@@ -1,28 +1,28 @@
 #include <stdio.h>
 
 /**
- * main-All possible different combinations of two digits
+ * main- two two digit combination of numbers
  * Return: always 0
  */
 
 int main(void)
 {
 int a, i;
-for (a = 0; a < 9; a++)
+for (a = 0; a < 99; a++)
 {
-for (i = 1; i < 10; i++)
+for (i = 1; i < 100; i++)
 {
 if (a < i)
 {
 putchar(a + '0');
+putchar(' ');
 putchar(i + '0');
-if (a < 8)
-{
+if (a < 99 && i < 100)
 putchar(',');
 putchar(' ');
 }
-}
-}
-}
+putchar('\n');
 return (0);
+}
+}
 }
